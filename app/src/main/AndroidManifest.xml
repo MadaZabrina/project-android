@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.funvou">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FunVou">
+        <activity android:name="com.example.funvou.TransactionCompleteActivity"></activity>
+        <activity
+            android:name="com.example.funvou.TransactionProduct20Activity"
+            android:parentActivityName="com.example.funvou.VoucherProduct20Activity" />
+        <activity
+            android:name="com.example.funvou.TransactionProduct10Activity"
+            android:parentActivityName="com.example.funvou.VoucherProduct10Activity" />
+        <activity
+            android:name="com.example.funvou.TransactionProduct5Activity"
+            android:parentActivityName="com.example.funvou.VoucherProduct5Activity" />
+        <activity
+            android:name="com.example.funvou.TopUpActivity"
+            android:parentActivityName="com.example.funvou.MainActivity" />
+        <activity
+            android:name="com.example.funvou.VoucherProduct20Activity"
+            android:parentActivityName="com.example.funvou.MainActivity" />
+        <activity
+            android:name="com.example.funvou.VoucherProduct10Activity"
+            android:parentActivityName="com.example.funvou.MainActivity" />
+        <activity
+            android:name="com.example.funvou.VoucherProduct5Activity"
+            android:parentActivityName="com.example.funvou.MainActivity" />
+        <activity android:name="com.example.funvou.DeleteAcountActivity" />
+        <activity android:name="com.example.funvou.EditProfileActivity" android:parentActivityName="com.example.funvou.ProfileActivity">
+            android:parentActivityName=".UpdateProfileSuccessActivity"
+        </activity>
+        <activity
+            android:name="com.example.funvou.LogoutActivity"
+            android:parentActivityName="com.example.funvou.SettingsActivity" />
+        <activity
+            android:name="com.example.funvou.SettingsActivity"
+            android:parentActivityName="com.example.funvou.MainActivity" />
+        <activity android:name="com.example.funvou.UpdateProfileSuccessActivity" />
+        <activity
+            android:name="com.example.funvou.ProfileActivity"
+            android:parentActivityName="com.example.funvou.MainActivity" />
+        <activity
+            android:name="com.example.funvou.RegisterActivity"
+            android:parentActivityName="com.example.funvou.LoginActivity" />
+        <activity android:name="com.example.funvou.HomePageActivity" />
+        <activity android:name="com.example.funvou.LoginActivity" />
+        <activity android:name="com.example.funvou.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

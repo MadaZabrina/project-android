@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90122429399",
+    "project_id": "funvou",
+    "storage_bucket": "funvou.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90122429399:android:86e73639a5b2df46196192",
+        "android_client_info": {
+          "package_name": "com.example.funvou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90122429399-uj1jd1rrd4ds06h56coa7in6pji15a3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1dM03va83-MK_jkmvEzWdqHFRw_fUBlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90122429399-uj1jd1rrd4ds06h56coa7in6pji15a3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
